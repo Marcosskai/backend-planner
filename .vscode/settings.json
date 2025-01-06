@@ -1,0 +1,9 @@
+{
+    "git.ignoreLimitWarning": true,
+    "editor.codeActionsOnsSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "[prisma]": {
+        "editor.formatOnSave": true
+    }
+}
