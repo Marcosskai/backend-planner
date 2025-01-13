@@ -1,8 +1,13 @@
 import fastify from "fastify";
+import { prisma } from "./lib/prisma"
 
 const app = fastify()
 
-app.get ('/test', () => {
+app.get ('/cadastrar', () => {
+    return 'Hello World'
+})
+
+app.get ('/listar', () => {
     return 'Hello World'
 })
 
